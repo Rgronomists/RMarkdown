@@ -1,0 +1,74 @@
+---
+title: "Intro to R Markdown"
+author: "Ranae Dietzel"
+date: "October 19, 2018"
+ratio: 16x10
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    theme: ribbon
+---
+
+##R Markdown 
+
+<center><img src="images/welcome.jpg" width="800px"/></center>
+
+## Why R Markdown?  
+* Need structured words to communicate your analyses and figures  
+* Formatting is the worst      
+* R Markdown helps you easily combine words, code, and figures  
+* **Helps with reproducibility BIG TIME**   
+<center><img src="images/eyes.gif" width="400px"/></center> 
+
+## What can R Markdown make?    
+* Everything, try me  
+
+## Presentations  
+* Options  
+
+## Reports  
+* html  
+* pdf  
+* even Word  
+
+## Journal Articles  
+* Mostly for Statistics journals  
+* Any Ecology journals?
+
+## Websites  
+* Static page 
+* Whole site  
+
+## Books  
+* Bookdown  
+
+## What if I like formatting/am a perfectionist?  
+* Free to make adjustments with LaTex, HTML, or CSS right in your document  
+* Also free to make entire templates or themes  
+
+<center><img src="images/perfectionist.gif" width="300px"/></center> 
+
+My favorite part about R Markdown is that I have no idea how it works.  
+
+## There is a very thorough book on R Markdown by Yihui Xie, J.J. Allaire, and Garrett Grolemund  
+
+<center><img src="images/cover.png" width="300px"/></center>  
+
+##   
+
+Yihui Xie is behind of most of what you can do with R Markdown  
+
+<center><img src="images/yihui.png" width="100px"/></center>   
+
+
+
+## Notebooks  
+
+
+
+
+
+
+
+
