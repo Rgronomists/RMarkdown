@@ -14,6 +14,43 @@
   <script src="general_rmarkdown_files\rmdshower/auto-render.min.js" type="text/javascript"></script>
   
   
+    <style type="text/css">
+   div.sourceCode { overflow-x: auto; }
+   table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+     margin: 0; padding: 0; vertical-align: baseline; border: none; }
+   table.sourceCode { width: 100%; line-height: 100%; }
+   td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+   td.sourceCode { padding-left: 5px; }
+   code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+   code > span.dt { color: #902000; } /* DataType */
+   code > span.dv { color: #40a070; } /* DecVal */
+   code > span.bn { color: #40a070; } /* BaseN */
+   code > span.fl { color: #40a070; } /* Float */
+   code > span.ch { color: #4070a0; } /* Char */
+   code > span.st { color: #4070a0; } /* String */
+   code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+   code > span.ot { color: #007020; } /* Other */
+   code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+   code > span.fu { color: #06287e; } /* Function */
+   code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+   code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+   code > span.cn { color: #880000; } /* Constant */
+   code > span.sc { color: #4070a0; } /* SpecialChar */
+   code > span.vs { color: #4070a0; } /* VerbatimString */
+   code > span.ss { color: #bb6688; } /* SpecialString */
+   code > span.im { } /* Import */
+   code > span.va { color: #19177c; } /* Variable */
+   code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+   code > span.op { color: #666666; } /* Operator */
+   code > span.bu { } /* BuiltIn */
+   code > span.ex { } /* Extension */
+   code > span.pp { color: #bc7a00; } /* Preprocessor */
+   code > span.at { color: #7d9029; } /* Attribute */
+   code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+   code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+   code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+   code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
   
   
   
@@ -53,21 +90,21 @@
 <section id="what-can-r-markdown-make" class="slide level2">
 <h2>What can R Markdown make?</h2>
 <ul>
-<li>Everything, try me</li>
+<li>Everything</li>
 </ul>
 </section>
 <section id="presentations" class="slide level2">
 <h2>Presentations</h2>
 <ul>
-<li>Options</li>
+<li>Like this one</li>
 </ul>
 </section>
 <section id="reports" class="slide level2">
 <h2>Reports</h2>
 <ul>
-<li>html<br />
+<li>HTML<br />
 </li>
-<li>pdf<br />
+<li>PDF<br />
 </li>
 <li>even Word</li>
 </ul>
@@ -83,14 +120,14 @@
 <section id="websites" class="slide level2">
 <h2>Websites</h2>
 <ul>
-<li>Static page</li>
-<li>Whole site</li>
+<li><a href="http://ranae.github.io/teaching_hour_blog">Static page</a></li>
+<li><a href="https://amber.rbind.io/">Whole site</a></li>
 </ul>
 </section>
 <section id="books" class="slide level2">
 <h2>Books</h2>
 <ul>
-<li>Bookdown</li>
+<li><a href="http://r4ds.had.co.nz/">Bookdown</a></li>
 </ul>
 </section>
 <section id="what-if-i-like-formattingam-a-perfectionist" class="slide level2">
@@ -106,20 +143,35 @@
 <p>My favorite part about R Markdown is that I have no idea how it works.</p>
 </section>
 <section id="there-is-a-very-thorough-book-on-r-markdown-by-yihui-xie-j.j.-allaire-and-garrett-grolemund" class="slide level2">
-<h2>There is a very thorough book on R Markdown by Yihui Xie, J.J. Allaire, and Garrett Grolemund</h2>
+<h2>There is a <a href="https://bookdown.org/yihui/rmarkdown/">very thorough book</a> on R Markdown by Yihui Xie, J.J. Allaire, and Garrett Grolemund</h2>
 <center>
 <img src="images/cover.png" width="300px"/>
 </center>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p>Yihui Xie is behind of most of what you can do with R Markdown</p>
+<p><a href="https://yihui.name/">Yihui Xie</a> is behind of most of what you can do with R Markdown</p>
 <center>
 <img src="images/yihui.png" width="100px"/>
 </center>
+<p>He is an ISU Alum and I hear he is awesome.</p>
 </section>
 <section id="notebooks" class="slide level2">
 <h2>Notebooks</h2>
+<ul>
+<li>Notebooks are a low pressure way to get started with R Markdown.<br />
+</li>
+<li>Keep everything in one place and be ready to share it.<br />
+</li>
+<li>Works well with version control.</li>
+</ul>
+<p>Let’s make a Notebook.</p>
+</section>
+<section id="here-is-some-code-you-can-copy-and-paste-without-going-into-github" class="slide level2">
+<h2>Here is some code you can copy and paste without going into GitHub</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(RCurl)
+
+agdata &lt;-<span class="kw">read.csv</span>(<span class="st">&quot;https://github.com/Ranae/AGRON_R4DS/blob/master/week_01/iowa_crop_history.csv&quot;</span>)</code></pre></div>
 </section>
 
   <!--

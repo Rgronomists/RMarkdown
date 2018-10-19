@@ -22,14 +22,14 @@ output:
 <center><img src="images/eyes.gif" width="400px"/></center> 
 
 ## What can R Markdown make?    
-* Everything, try me  
+* Everything 
 
 ## Presentations  
-* Options  
+* Like this one  
 
 ## Reports  
-* html  
-* pdf  
+* HTML  
+* PDF  
 * even Word  
 
 ## Journal Articles  
@@ -37,11 +37,11 @@ output:
 * Any Ecology journals?
 
 ## Websites  
-* Static page 
-* Whole site  
+* [Static page](http://ranae.github.io/teaching_hour_blog) 
+* [Whole site](https://amber.rbind.io/)  
 
 ## Books  
-* Bookdown  
+* [Bookdown](http://r4ds.had.co.nz/)  
 
 ## What if I like formatting/am a perfectionist?  
 * Free to make adjustments with LaTex, HTML, or CSS right in your document  
@@ -51,19 +51,36 @@ output:
 
 My favorite part about R Markdown is that I have no idea how it works.  
 
-## There is a very thorough book on R Markdown by Yihui Xie, J.J. Allaire, and Garrett Grolemund  
+## There is a [very thorough book](https://bookdown.org/yihui/rmarkdown/) on R Markdown by Yihui Xie, J.J. Allaire, and Garrett Grolemund  
 
 <center><img src="images/cover.png" width="300px"/></center>  
 
 ##   
 
-Yihui Xie is behind of most of what you can do with R Markdown  
+[Yihui Xie](https://yihui.name/) is behind of most of what you can do with R Markdown  
 
-<center><img src="images/yihui.png" width="100px"/></center>   
+<center><img src="images/yihui.png" width="100px"/></center>  
 
+He is an ISU Alum and I hear he is awesome.  
 
 
 ## Notebooks  
+* Notebooks are a low pressure way to get started with R Markdown.  
+* Keep everything in one place and be ready to share it.  
+* Works well with version control.  
+
+Let's make a Notebook.  
+
+## Here is some code you can copy and paste without going into GitHub  
+
+```{r message=FALSE, warning=FALSE}
+library(RCurl)
+
+agdata <-read.csv("https://github.com/Ranae/AGRON_R4DS/blob/master/week_01/iowa_crop_history.csv")
+```
+
+
+
 
 
 
